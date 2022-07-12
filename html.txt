@@ -1,0 +1,193 @@
+htmll5 css3   modulo 1
+
+curso 
+
+o que vamos aprender?
+
+
+
+historia da internet- protocolos,pacotes,dominio e hospedagem
+fornteng e backeng 
+htmll5 e semanticos
+links e ancoras
+
+1-primeiros passos. conteudo disponivel em github.com/gustavoguanabara e gustavoguanabara.github.io
+
+achar ip www.iplocation.net
+
+
+servideores sao representados por numeros
+DNS- domain name sisten (dominio) nome igual a agenda telefonica. porque os enderecos de site sao em numeros, 
+
+internet funciona em rotas.
+
+
+o que e dominio de hospedagem?
+onde voce vai guardar seus ariquivos( ex um site qe voce cria, ele vai ficar hospedado)
+
+para ter site precisa ter o dominio e uma hospedagem.
+
+URL -serve pra ir pra pagina certinha.  guanabara.github.nt
+
+1 parte. dominio github
+parte2 . gtld, 
+cctld . codigo de pais br, us, pt
+
+=www - subdominio
+/- finalzinho chama (caminho)
+
+ex:gustavoguanabara.github.io URL
+
+gustavoguanabara=subdominio
+github=dominio
+.io=gtld
+https=protocolo
+
+
+
+
+html e focado em conteudo; textos, imagens videos  n
+
+
+codigos
+h1 cabecalho
+p paragrafo
+hr - linha horizontal
+&lt; - por sinais
+
+paragrafos, quebra de linhas, emogis
+
+PARA COLOCAR EMOJS
+PRECISA ADD SEMPRE &#X E UM CODIGO QUE VOCE PEGA DA EMOJOPIDEA
+
+Sites pra pegar imagens pra usar no sei site:
+UNSPLASH FREE IMAGENS 
+PROGRAMAS DE MANIPULACAO DE IMAGENS GRATUITO 
+GIMP
+
+Colocar imagens no site
+Cod - img
+
+selecionar a imagem ctrl espace 
+
+1 colocar imagem da pasta
+2 colcoar imagem de uma pagina diferente 
+3 colocar imagens lincadas ( com enedereco da internet)
+
+Criacao de icones
+icon archive
+Favicon.io
+favicon.cc
+
+herarquias de titulos
+
+sao niveis dentro de um texto
+ nivl 1 e titulo principal
+novel 2 sub titulos .. e assim vai por sequencia um dentro do outro
+
+
+
+Para usar italico i ou negrito b  e tiver esquecido, apertar contr shift
+ p   --- tag with abrevietion para envelopar/ digitar abb
+
+
+Codigo Code- fonte mono espacada
+codigo Q significa quote que em ingles e citacao
+
+blockquote para citar de forma separada do texto
+
+
+code ABBR para indicar significado de siglas como html e css ou Usa
+
+LISTAS ONDE O HTMLL TEM SUPORTE
+
+OL sigla de ordenede Lista- para ordernar listas
+Tudo que tem que fazer pra fazer uma lista e coocar o Ol e dentro LI 
+que a ordem arruma sozinha
+
+depois do OL posso colocar type para alterar o tipo. como 1234, ou abcd...
+
+listas nao ordenadas e representado por UL unordened list
+-comer
+-jogar
+-trabalhar...
+existe style tb, disk e o padrao mas tem o square entre outras
+
+linguagem para termo e definicao dentro de DL
+dt
+dd
+como um dicionario
+
+ESTUDO DE LINKS 
+
+QUANDO ESTUDAMOS OS LINKS EXTERNOS E INTERNOS 
+
+CODIGO a e tu coloca a pagina do  link
+
+codigo pra indicar pros mecanismo de navegacao que voce ta indo pra frente 
+ou voltando ou colocando link externo
+
+codigo; rel - external ou rel next ou rel prev 
+
+pra voltar pra primeira pagina e eu estiver numa pagina numa pasta difrente 
+tenho que fazer o caminho de volta que e ../
+
+codigo pra abrir nova aba, target _blank
+
+
+INSERIR AUDIOS
+
+CODIGO- AUDIO
+mas tem que colocar controls e autoplay
+
+UPAGEM DE VIDEO NO SITE.
+
+ELE SUGERE USAR O HANDBREAK PARA CONVERTER, TAMANHO E FORMATO.
+
+
+Para usar o CSS
+
+tu abre um STYLE E APLICA ONDE FOR AS CORES, ESTILOS E FONTES.
+
+No mesmo arquivo posso usar css interno, css externo e css inline
+
+
+
+CORES HTML CSS
+ARMONIA DE CORES
+
+
+circulo cromatico e pra ter armonia nas cores
+-comodidade visual
+
+CORES PRIMARIAS- amarelo , azul e vermelho
+
+
+CORES SECUNDARIAS- laranja, violeta e verde
+
+
+CORES TERCIARIAS- amarelo-esverdiado, amarelo alaranjado, vermelho alaranjado
+vermelho-arroxeado, azul-arroxeado, azul esverdeado
+
+
+Temperatura das cores,
+
+cores frias e cores quentes.
+
+
+CORES COMPLEMENTRES
+
+cores opostas--  violeta contrasta com amarelo
+vermelho,cor complementr verde
+azul e oposta laranja
+
+CORES ANALOGAS- nao tem contraste tao grande mas sao parecidas
+similidaridade
+azul pega cores visinhas 
+
+
+MONOCROMIA- laranja, modificar saturacao e brilho. consegue mais cores 
+usando uma cor, fazendo um degrade.
+
+adoble color , site pra voce ver paletas e codigos
+outro- paletton.com
