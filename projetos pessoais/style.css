@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+
+/*Estamos resetandos as config do css pra podermos estilizar sem nenhum bug*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(66deg,  rgb(125, 109, 107), rgb(220, 139, 139));
+}
+
+/* start*/
+
+header{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho{
+    height: 72px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.ancora{ font-family: 'Sarala', sans-serif;
+  color: white;  
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+/*aqui começa o body*/
+
+main{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+
+.principal{
+    display: flex;  /*por para trabalhar com display flex*/
+    flex-direction: row;  /*colocar tudo na horizontal*/
+    align-items: center;  /*centralizar itens*/
+    justify-content: space-around; /*conjunto de todas essas info para por conteudos um do lado do outro*/
+}
+
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+h1{
+    font-family: 'righteous',cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+button{
+    background-color: antiquewhite;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+
+}
+
+button:hover{
+    background-color: rgba( 236, 214, 196, 0.53);
+}
+
+
+.imagem-main{
+    height: 430px;
+}
+
+.secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+h3{
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    
+}
+
+footer{
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+.imagem-footer{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
