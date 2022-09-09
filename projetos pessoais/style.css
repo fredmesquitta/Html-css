@@ -9,11 +9,12 @@
     padding: 0;
     box-sizing:border-box ;
     text-decoration: none;
+    
 }
 
 body{
     font-size: 100%;
-    background: linear-gradient(66deg,  rgb(125, 109, 107), rgb(220, 139, 139));
+    background: linear-gradient(-66deg,  #033045, #bce4fb);
 }
 
 /* start*/
@@ -86,7 +87,9 @@ button{
     background-color: antiquewhite;
     width: 180px;
     height: 60px;
-    border: none;
+    border-color: #046c9c;
+    border-width: 5px;
+    
     border-radius: 20px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     
@@ -98,7 +101,7 @@ button{
 }
 
 button:hover{
-    background-color: rgba( 236, 214, 196, 0.53);
+    background-color:#bce4fb;
 }
 
 
