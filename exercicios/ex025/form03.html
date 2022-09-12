@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 03</title>
+
+
+</head>
+<body>
+
+    <h1>Teste de Formulario</h1>
+
+    <form action="cadastro.php">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+        </p>
+
+
+        <p>
+            <label for="imedia">Media</label> <!--pra colocar o nome daquilo que vai ser preenchido-->
+            <input type="number" name="media" id="imedia" min="0" max="10" >
+        </p>
+
+        <p>
+            <label for="imes">Periudo Letivo</label>
+            
+            <input type="month" name="mes" id="imes" value="2022-09"> <!--esse value e pra deixar definido na tela valores/datas e etc-->
+        </p>
+
+
+
+        <p>Voce pode colocar o que voce quiser, como datas, dias, horas, meses, preenchimentos..</p>
+
+
+        <p>
+           <input type="submit" value="Enviar"> 
+           <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+    </form>
+
+
+    
+</body>
+</html>
