@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms com lista de opções</title>
+
+
+
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Opções de Estados</legend>
+
+            <p>
+                <label for="iest">Estados</label>
+                <select name="estados" id="iest">
+
+                    <optgroup label="centro-sudeste">
+                    <option value="Go">Goias</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Nordeste">
+                        <option value="Pi">Piaui</option>
+                        <option value="Ce">Ceara</option>
+                        <option value="BA">Bahia</option>
+                    </optgroup>
+                    
+            </p>
+            </select>
+
+
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                
+
+                <datalist id="lstprof">
+                    <option value="Eng">Engenheiro</option>
+                    <option value="ADV">ADvogado</option>
+                    <option value="Med">Medico</option>
+                </datalist>
+                
+            
+            </p>
+
+            <p>
+                <label for="imes">Mensagem:</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+
+        
+
+
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </p>
+
+
+
+
+
+        </fieldset>
+
+
+
+
+
+
+
+    </form>
+    
+
+
+
+
+</body>
+</html>
